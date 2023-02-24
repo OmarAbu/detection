@@ -1,3 +1,6 @@
+#model
+will be posting the model soon
+
 # detection
 Credit to Kaggle.. All training data and csv folders that I used can be found at https://www.kaggle.com/competitions/siim-isic-melanoma-classification/data.
 # Part 1
