@@ -1,0 +1,184 @@
+<script>
+function findDermatologists() {
+     var zipCode = document.getElementById("zipcode").value;
+    // // Use the zipcode to query a database or API for local dermatologists
+    // var dermatologists = searchDermatologists(zipcode);
+    // // Display the results in the "results" div
+    // var results = document.getElementById("results");
+    // results.innerHTML = "";
+    // for (var i = 0; i < dermatologists.length; i++) {
+    //   var doc = dermatologists[i];
+    //   var name = doc.name;
+    //   var address = doc.address;
+    //   var phone = doc.phone;
+    //   results.innerHTML += "<p>" + name + "<br>" + address + "<br>" + phone + "</p>";
+    // }
+    window.location.href="https://www.google.com/search?q=my+local+dermatologist"+"" +zipCode;
+  }
+
+
+
+
+
+const navToggle = document.querySelector('.header .container .navbar-inverse .navbar-toggle');
+const nav = document.querySelector('.header .container .navbar-inverse .nav-toggle .nav');
+
+navToggle.addEventListener('click', function() {
+  nav.style.display = (nav.style.display === 'block') ? 'none' : 'block';
+})
+
+</script>
+<html lang="en-gb" class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--[if lt IE 9]> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
+    
+    <meta name="description" content="">
+    <meta name="author" content="WebThemez">
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lte IE 8]>
+		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
+	<![endif]-->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="templates/source/style.css" type="text/css">
+    <!-- <link rel="stylesheet" type="text/css" href="page.css" media="screen" /> -->
+   
+    
+
+<body>
+
+       
+        <!--/.container-->
+<div class="container-fluid">
+  <nav class="navbar navbar-inverse">
+
+      <ul class="nav navbar-nav">
+        <li><a id="github-button" href="https://github.com/OmarAbu">GitHub</a></li>
+        <li><a href="{{url_for('upload')}}">Upload Your Mole</a></button></li>
+      
+        <li><a class="nav-link" href="{{ url_for('feedback') }}">Feedback</a>
+
+      </ul>
+    </div>
+  </nav>
+  <div id="title">
+    <div class="page-title">
+      <h2>Check Your Mole</h2>
+      
+    </div>
+</div>
+
+
+    <!--/.header-->
+    
+    <div id="#top"></div>
+    <section id="home">
+        
+            <div class="container">
+                <div id="da-slider" class="da-slider">
+                    <div class="da-slide">
+                        <h2>Issue</h2>
+                         <p class="my-p">
+                            THIS WEBSITE IS CANNOT AND WILL NOT REPLACE YOUR DOCTOR. YOU MUST GO TO A DOCTOR TO HAVE A VALID DIAGNOSIS IF YOU HAVE MELANOMA. THE MODEL IS NOT ACCURATE OR A REPLACEMENT FOR YOUR PHYSICIAN!
+                        </p>
+                        <p class="my-p">The purpose of this website came from the interest of me personally along with the fact there is a rise in cases of melanoma that have gone under values.
+                            As technology has increased, I wanted to see if I can attempt o make a website that could even help make individuals atleast have access to some service that could help guide them to a doctor if they have a concern for their health/wellbeing.
+                            We do not store any information you input on this website.
+                        </p>
+                        <div class="da-img"></div>
+                    </div>
+                    <nav class="da-arrows">
+                        <span class="da-arrows-prev"></span>
+                        <span class="da-arrows-next"></span>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="aboutUs" class="page2">
+        <div class="container">
+            <div class="heading text-center">
+                <!-- Heading -->
+                <h2>About Us</h2>
+                <p>At lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>
+            </div>
+            <div>
+                <h3>Purpose</h3>
+                <p>Strive towards a better  </p>
+            </div>
+            
+
+            <div class="row">
+                <link rel="stylesheet" href="templates/source/style.css" type="text/css">
+                <div class="container">
+                    <h3><i class="img"></i>&nbsp; Rise in Melanoma</h3>
+                    <img src="image/ch1.jpeg" alt="check your mole image">
+                    <!-- Paragraph -->
+                    <p class="my-paragraph">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit occaecat cupidatat non id est laborum.</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <!-- Heading -->
+                    <h3><i class="fa fa-cloud color"></i>&nbsp;Why choose us?</h3>
+                    <!-- Paragraph -->
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit occaecat cupidatat non id est laborum.</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <!-- Heading -->
+                    <h3><i class="fa fa-home color"></i>&nbsp;Where are we?</h3>
+                    <!-- Paragraph -->
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit occaecat cupidatat non id est laborum.</p>
+                </div>
+            </div>
+        </div>
+        <!--/.container-->
+    </section>
+
+
+        <section id=" DERMATOLOGIST " class="page-section">
+        <form>
+            <h2>
+                Find your local dermatologst
+            </h2>
+            <label for="zipcode">Enter your zip code:</label>
+            <input type="text" id="zipcode" name="zipcode">
+            <button type="button" onclick="findDermatologists()">Find Dermatologists</button>
+          </form>
+          <div id="results"></div>
+        <!--/.container-->
+    </section>
+    <section class="maps">
+        <iframe src="http://maps.google.com/maps?f=q&t=m&z=15&ll=-7.269152,112.733127&output=embed" width="100%" height="250" frameborder="0"></iframe>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="social text-center">
+              
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+
+            <div class="clear"></div>
+            <!--CLEAR FLOATS-->
+        </div>
+    </footer>
+</head>
+
+   
+
+</body>
+</html>
+
