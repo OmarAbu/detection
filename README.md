@@ -9,6 +9,8 @@ Used tensroflow to build a CNN (Convolution Neural Network) using features of th
 # Part 3
 working on a website with flask to allow users to ask the website and upload images to the website so that the model can give the user and idea of how likley their mole is benign or malignant.
 
+(STLL REDINING WEBSITE)
+
 # Disclamer
 for any path variables in python, I had to copy the full path i.e store the 30,000+ images into a hardrive than copy an absolute path to it for tensorflow to recognize a folder of images even exist. 
 
